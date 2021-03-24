@@ -14,7 +14,7 @@ recvcode = "2"
 
 bottle = Bottle(height=height, volume=volume, recvcode=recvcode)
 
-# print(f"The height of the bottle is {bottle.height}, the bottle can store upto {bottle.volume}. The bottle can be used {bottle.recvcode} times")
+print(f"The height of the bottle is {bottle.height}, the bottle can store upto {bottle.volume}. The bottle can be used {bottle.recvcode} times")
 
 # Even or odd checker
 class eo:
@@ -30,7 +30,7 @@ class eo:
 
 for x in range(1,51):
     num = x
-    # print(eo(num).eocheck())
+    print(eo(num).eocheck())
 
 class pass_or_fail:
 
